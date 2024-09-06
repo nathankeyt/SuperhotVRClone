@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Myproject7"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-54
+19-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+21-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-64
+22
+23    <uses-feature
+23-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-52
+25        android:required="false" />
+25-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
+26    <uses-feature
+26-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-63
+28        android:required="false" />
+28-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
+29    <uses-feature
+29-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-72
+31        android:required="false" />
+31-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
+32    <uses-feature
+32-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-29:31
+33        android:name="android.hardware.vr.headtracking"
+33-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-56
+34        android:required="true"
+34-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-32
+35        android:version="1" />
+35-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-28
+36
+37    <application
+37-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+38        android:debuggable="true"
+39        android:extractNativeLibs="true"
+39-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:18-50
+40        android:icon="@mipmap/app_icon"
+40-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+41        android:label="@string/app_name" >
+41-->/Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+42        <activity
+42-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-56:20
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-66
+44            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+44-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-114
+45            android:hardwareAccelerated="false"
+45-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-48
+46            android:launchMode="singleTask"
+46-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-44
+47            android:resizeableActivity="false"
+47-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-47
+48            android:screenOrientation="landscape"
+48-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-50
+49            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+49-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-77
+50            <intent-filter>
+50-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-45:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-69
+51-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-77
+53-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:27-74
+54                <category android:name="com.oculus.intent.category.VR" />
+54-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-74
+54-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:27-71
+55            </intent-filter>
+56
+57            <meta-data
+57-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-49:40
+58                android:name="unityplayer.UnityActivity"
+58-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-57
+59                android:value="true" />
+59-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:17-37
+60            <meta-data
+60-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-52:40
+61                android:name="android.notch_support"
+61-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-53
+62                android:value="true" />
+62-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:17-37
+63            <meta-data
+63-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-55:40
+64                android:name="com.oculus.vr.focusaware"
+64-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:17-56
+65                android:value="true" />
+65-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-37
+66        </activity>
+67
+68        <meta-data
+68-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:9-60:33
+69            android:name="unity.splash-mode"
+69-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-45
+70            android:value="0" />
+70-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-30
+71        <meta-data
+71-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:9-63:36
+72            android:name="unity.splash-enable"
+72-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-47
+73            android:value="True" />
+73-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-33
+74        <meta-data
+74-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:9-66:36
+75            android:name="unity.launch-fullscreen"
+75-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-51
+76            android:value="True" />
+76-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-33
+77        <meta-data
+77-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:9-69:37
+78            android:name="unity.allow-resizable-window"
+78-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-56
+79            android:value="False" />
+79-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-34
+80        <meta-data
+80-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:9-72:50
+81            android:name="notch.config"
+81-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:13-40
+82            android:value="portrait|landscape" />
+82-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-47
+83        <meta-data
+83-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:9-75:36
+84            android:name="unity.auto-report-fully-drawn"
+84-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-57
+85            android:value="true" />
+85-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-33
+86        <meta-data
+86-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-78:39
+87            android:name="com.samsung.android.vr.application.mode"
+87-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-67
+88            android:value="vr_only" />
+88-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-36
+89        <meta-data
+89-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:9-81:37
+90            android:name="com.unity.xr.oculus.LowOverheadMode"
+90-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-63
+91            android:value="false" />
+91-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:13-34
+92        <meta-data
+92-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:9-84:37
+93            android:name="com.unity.xr.oculus.LateLatching"
+93-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:13-60
+94            android:value="false" />
+94-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-34
+95        <meta-data
+95-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:9-87:37
+96            android:name="com.unity.xr.oculus.LateLatchingDebug"
+96-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-65
+97            android:value="false" />
+97-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:13-34
+98        <meta-data
+98-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:9-90:44
+99            android:name="com.oculus.supportedDevices"
+99-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-55
+100            android:value="quest|quest2" />
+100-->[:unityLibrary] /Users/nathankeyt/My project (7)/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-41
+101    </application>
+102
+103</manifest>
