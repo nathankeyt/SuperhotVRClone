@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
@@ -15,11 +16,17 @@ public class Bullet : MonoBehaviour
     
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Target"))
+        Debug.Log(other.gameObject.tag);
+        if (other.gameObject.CompareTag("EnemyHitBox"))
         {
             Destroy(other.gameObject);
+            
         }
-        Destroy(gameObject);
+
+        if (!other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
     
     IEnumerator SelfDestruct()
