@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
@@ -24,16 +25,16 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         var maxDeltaPos = (rightHandController.transform.position - rightLastPos).magnitude;
         maxDeltaPos = Math.Max(maxDeltaPos, (leftHandController.transform.position - leftLastPos).magnitude);
         maxDeltaPos = Math.Max(maxDeltaPos, (playerCamera.transform.position - cameraLastPos).magnitude);
 
-        print((playerCamera.transform.position - cameraLastPos).magnitude);
-        var velocity = maxDeltaPos / Time.deltaTime;
-        Debug.Log(velocity);
+        //print((playerCamera.transform.position - cameraLastPos).magnitude);
+        var speed = maxDeltaPos / Time.deltaTime;
+        //Debug.Log(velocity);
         
-        Time.timeScale = Math.Min(velocity_upper_threshold, velocity);
+        if (!speed.IsUndefined())
+            Time.timeScale = Math.Min(velocity_upper_threshold, speed);
         
         SetLastPos();
     }

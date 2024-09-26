@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bulletTemplate;
+    [SerializeField] private Transform bulletSpawnPoint;
     public float shootPower = 100f;
     
     public InputActionReference trigger;
@@ -18,7 +19,7 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot(InputAction.CallbackContext _)
     {
-        GameObject newBullet = Instantiate(bulletTemplate, transform.position, transform.rotation);
+        GameObject newBullet = Instantiate(bulletTemplate, bulletSpawnPoint.position, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
     }
 }
