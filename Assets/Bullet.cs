@@ -19,7 +19,11 @@ public class Bullet : MonoBehaviour
         Debug.Log(other.gameObject.tag);
         if (other.gameObject.CompareTag("EnemyHitBox"))
         {
+<<<<<<< HEAD
             Destroy(other.transform.parent.gameObject);
+=======
+            Destroy(other.gameObject);
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
             
         }
 
