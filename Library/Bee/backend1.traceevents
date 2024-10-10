@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1728585135654534, "dur":2055, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1728585135656597, "dur":2637, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1728585135659267, "dur":60, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
@@ -371,6 +372,8 @@
 ,{ "pid":12345, "tid":0, "ts":1728585135815214, "dur":234, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 ,{ "pid":12345, "tid":0, "ts":1727370748524870, "dur":2092, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1727370748526979, "dur":2220, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1727370748529245, "dur":77, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
@@ -735,5 +738,8 @@
 ,{ "pid":12345, "tid":8, "ts":1727217536897023, "dur":150275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1727217537054756, "dur":221, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 ,

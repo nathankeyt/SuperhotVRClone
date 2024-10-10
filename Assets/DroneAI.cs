@@ -5,7 +5,11 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Unity.VisualScripting;
+=======
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
@@ -29,6 +33,11 @@ public class DroneAI : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
 
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
@@ -45,12 +54,15 @@ public class DroneAI : MonoBehaviour
     {
 <<<<<<< HEAD
         Transform transform1 = transform;
+<<<<<<< HEAD
         
         if (playerTarget)
         {
 =======
 <<<<<<< HEAD
         Transform transform1 = transform;
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
         if (playerTarget)
         {
             
@@ -59,6 +71,9 @@ public class DroneAI : MonoBehaviour
         {
             Transform transform1 = transform;
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
             transform1.LookAt(playerTarget.transform.position);
             if ((transform1.position - playerTarget.transform.position).magnitude > stopDistance)
@@ -68,6 +83,12 @@ public class DroneAI : MonoBehaviour
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+            
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
             
             
@@ -94,15 +115,24 @@ public class DroneAI : MonoBehaviour
         {
             yield return new WaitForSeconds(shootTimeout);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
             if (playerTarget)
             {
                 Shoot();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+            Shoot();
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
 =======
             Shoot();

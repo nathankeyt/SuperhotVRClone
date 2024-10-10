@@ -248,9 +248,12 @@ Transform:
   m_PrefabInstance: {fileID: 130163439}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &144118061
 PrefabInstance:
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 --- !u!1 &166045040
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,6 +286,9 @@ Transform:
   m_Father: {fileID: 1346020014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -290,6 +296,7 @@ Transform:
     serializedVersion: 3
     m_TransformParent: {fileID: 1620445878}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 153240, guid: 48d2973b7a25b451ea97a6eaf756f8cb, type: 3}
       propertyPath: m_Name
@@ -333,6 +340,8 @@ Transform:
       objectReference: {fileID: 0}
     - target: {fileID: 453240, guid: 48d2973b7a25b451ea97a6eaf756f8cb, type: 3}
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     - target: {fileID: 100002, guid: be50ff3ed2fbe44349a64d3ac5fb98ee, type: 3}
       propertyPath: m_Name
       value: Floor_Squared_01_6x6
@@ -374,6 +383,9 @@ Transform:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: be50ff3ed2fbe44349a64d3ac5fb98ee, type: 3}
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -383,6 +395,7 @@ Transform:
     m_AddedGameObjects: []
     m_AddedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 48d2973b7a25b451ea97a6eaf756f8cb, type: 3}
 --- !u!4 &144118062 stripped
 Transform:
@@ -391,6 +404,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &158837202
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
   m_SourcePrefab: {fileID: 100100000, guid: be50ff3ed2fbe44349a64d3ac5fb98ee, type: 3}
 --- !u!4 &120213745 stripped
 Transform:
@@ -398,6 +413,9 @@ Transform:
   m_PrefabInstance: {fileID: 120213744}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &130163439
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -406,6 +424,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1620445878}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 100002, guid: 43cae7f98873e473d96789cc6276b26f, type: 3}
       propertyPath: m_Name
@@ -449,6 +468,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 43cae7f98873e473d96789cc6276b26f, type: 3}
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     - target: {fileID: 100002, guid: 6303ec70701ed4d31806e2ce8a7af08c, type: 3}
       propertyPath: m_Name
       value: Roof_Angle_01_6x6 (1)
@@ -490,6 +511,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6303ec70701ed4d31806e2ce8a7af08c, type: 3}
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -498,6 +522,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 43cae7f98873e473d96789cc6276b26f, type: 3}
 --- !u!4 &158837203 stripped
@@ -568,6 +593,8 @@ Transform:
   m_PrefabInstance: {fileID: 165712217}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
   m_SourcePrefab: {fileID: 100100000, guid: 6303ec70701ed4d31806e2ce8a7af08c, type: 3}
 --- !u!4 &130163440 stripped
 Transform:
@@ -575,6 +602,9 @@ Transform:
   m_PrefabInstance: {fileID: 130163439}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 --- !u!1 &189289518
 GameObject:
@@ -3953,9 +3983,13 @@ Transform:
   m_PrefabInstance: {fileID: 1424581879}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1491356822
 =======
 <<<<<<< HEAD
+--- !u!1001 &1466726575
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 --- !u!1001 &1466726575
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 PrefabInstance:
@@ -3965,6 +3999,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 1934863266472010579, guid: 0f06dc7e494e2419cb0b42ad589a764f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4016,6 +4051,8 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f06dc7e494e2419cb0b42ad589a764f, type: 3}
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     - target: {fileID: 1556680368518718627, guid: 1978bcb1afe504fe99728c56cc795d2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.077
@@ -4080,6 +4117,9 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1978bcb1afe504fe99728c56cc795d2c, type: 3}
 =======
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 --- !u!1001 &1496131954
 PrefabInstance:
@@ -5674,8 +5714,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletTemplate: {fileID: 8386293105571704658, guid: f6fa16525ee3243a18cbc019ca9cf7e3, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   shoot: {fileID: 8300000, guid: 8d2ffe810fa89ef4fad702cafd3838a7, type: 3}
   audio_player: {fileID: 1586940467}
+=======
+  bulletSpawnPoint: {fileID: 166045041}
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
   bulletSpawnPoint: {fileID: 166045041}
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
@@ -6483,9 +6527,15 @@ SceneRoots:
   m_Roots:
   - {fileID: 1759870441}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1019988907}
 =======
 <<<<<<< HEAD
+  - {fileID: 1466726575}
+=======
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
   - {fileID: 1466726575}
 =======
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26

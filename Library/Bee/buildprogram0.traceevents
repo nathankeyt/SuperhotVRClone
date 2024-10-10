@@ -2,6 +2,7 @@
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1728583313228551, "dur": 158339, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1728583313229162, "dur": 61010, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1728583313296880, "dur": 70694, "ph": "X", "name": "RunBuildProgram", "args": {} },
@@ -16,6 +17,8 @@
 { "pid": 35942, "tid": 1, "ts": 1728583313390764, "dur": 1152, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 { "pid": 35942, "tid": 1, "ts": 1727369611401700, "dur": 177401, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1727369611402337, "dur": 78298, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1727369611488186, "dur": 71454, "ph": "X", "name": "RunBuildProgram", "args": {} },
@@ -37,4 +40,7 @@
 { "pid": 35942, "tid": 1, "ts": 1727217537950629, "dur": 863, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1727217537950387, "dur": 1244, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e

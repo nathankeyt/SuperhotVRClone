@@ -7,6 +7,7 @@
 
 "traceEvents":[
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 1844, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 1844, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 1844, "tid": 22, "ph": "M", "name": "thread_name", "args": { "name": "Thread Pool Worker" } },
@@ -1574,6 +1575,8 @@
 { "pid": 1844, "tid": 22, "ts": 1728583062787592, "dur": 8, "ph": "X", "name": "BuildAsync", "args": {} },
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 { "pid": 49708, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 49708, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 49708, "tid": 36169, "ph": "M", "name": "thread_name", "args": { "name": "Thread Pool Worker" } },
@@ -9277,6 +9280,9 @@
 { "pid": 22946, "tid": 15, "ts": 1727217545224713, "dur": 69, "ph": "X", "name": "backend1.traceevents", "args": {} },
 { "pid": 22946, "tid": 15, "ts": 1727217545218148, "dur": 7064, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+<<<<<<< HEAD
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
+=======
 >>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 {}
 

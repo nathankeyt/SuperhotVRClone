@@ -23,7 +23,12 @@ public class Bullet : MonoBehaviour
             Destroy(other.transform.parent.gameObject);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             Destroy(other.transform.parent.gameObject);
+=======
+            Destroy(other.gameObject);
+>>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
 =======
             Destroy(other.gameObject);
 >>>>>>> 227bb835d132d9ef5d3a891470092936494b2b26

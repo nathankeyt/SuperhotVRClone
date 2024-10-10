@@ -731,7 +731,10 @@
       <HintPath>/Users/nathankeyt/My project (7)/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>/Users/nathankeyt/My project (7)/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
@@ -869,7 +872,10 @@
       <HintPath>/Users/nathankeyt/My project (7)/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>/Users/nathankeyt/My project (7)/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
