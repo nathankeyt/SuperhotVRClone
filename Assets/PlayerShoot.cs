@@ -6,6 +6,12 @@ using UnityEngine.InputSystem;
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bulletTemplate;
+<<<<<<< HEAD
+    [SerializeField] private AudioClip shoot;
+    [SerializeField] private AudioSource audio_player;
+=======
+    [SerializeField] private Transform bulletSpawnPoint;
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
     public float shootPower = 100f;
     
     public InputActionReference trigger;
@@ -18,7 +24,12 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot(InputAction.CallbackContext _)
     {
+<<<<<<< HEAD
+        audio_player.PlayOneShot(shoot);
         GameObject newBullet = Instantiate(bulletTemplate, transform.position, transform.rotation);
+=======
+        GameObject newBullet = Instantiate(bulletTemplate, bulletSpawnPoint.position, transform.rotation);
+>>>>>>> 4c87775237fccded9d2e1efbaa80fbd976839e9e
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
     }
 }
